@@ -67,9 +67,11 @@ function QuestionProvider({ children }) {
   const numOfQuestions = questions.length;
   const totalPoint = questions.reduce((prev, curr) => prev + curr.points, 0);
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://vineethpradeep.github.io/codebox/db.json")
       .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      .then((data) => {
+        dispatch({ type: "dataReceived", payload: data.questions });
+      })
       .catch((err) => dispatch({ type: "dataFailed", payload: err }));
   }, []);
 
