@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "question": "What is the purpose of React's useMemo hook?",
+      "options": [
+        "To memoize the entire component",
+        "To memoize expensive calculations",
+        "To manage state",
+        "To handle side effects"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "How does React's Context API help in state management?",
+      "options": [
+        "By providing a way to pass data through the component tree without having to pass props down manually at every level",
+        "By replacing Redux",
+        "By simplifying useState",
+        "By improving performance"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of React's useCallback hook?",
+      "options": [
+        "To memoize a function",
+        "To handle side effects",
+        "To manage component state",
+        "To trigger re-renders"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is React's StrictMode used for?",
+      "options": [
+        "To handle errors",
+        "To highlight potential problems in an application",
+        "To improve performance",
+        "To write better unit tests"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the difference between useEffect and useLayoutEffect?",
+      "options": [
+        "useEffect runs synchronously, useLayoutEffect runs asynchronously",
+        "useEffect runs after paint, useLayoutEffect runs before paint",
+        "useEffect runs only on mount, useLayoutEffect runs on every render",
+        "There is no difference"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the React Profiler API allow you to do?",
+      "options": [
+        "Measure the performance of React components",
+        "Debug components",
+        "Manage component state",
+        "Handle side effects"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How can you optimize performance in a React application?",
+      "options": [
+        "Using dynamic imports",
+        "Using shouldComponentUpdate lifecycle method",
+        "Using React.memo for functional components",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the useImperativeHandle hook?",
+      "options": [
+        "To handle imperative actions",
+        "To customize the instance value that is exposed when using ref",
+        "To handle side effects",
+        "To optimize performance"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "How does React's virtual DOM improve performance?",
+      "options": [
+        "By reducing the number of DOM manipulations",
+        "By creating a real DOM tree in memory",
+        "By using Web Workers",
+        "By caching components"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the primary difference between controlled and uncontrolled components in React?",
+      "options": [
+        "Controlled components manage their own state, uncontrolled components do not",
+        "Controlled components receive their current value and update callback via props, uncontrolled components store their own state internally",
+        "Controlled components are stateless, uncontrolled components are stateful",
+        "There is no difference"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the useReducer hook do?",
+      "options": [
+        "It replaces Redux",
+        "It is an alternative to useState for more complex state logic",
+        "It manages side effects",
+        "It handles component lifecycle events"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What are React portals used for?",
+      "options": [
+        "To optimize component rendering",
+        "To render children into a different DOM subtree",
+        "To manage state",
+        "To handle side effects"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the Error Boundaries feature do in React?",
+      "options": [
+        "It prevents runtime errors",
+        "It catches JavaScript errors anywhere in the component tree and displays a fallback UI",
+        "It logs errors to an error reporting service",
+        "It improves performance"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of React's Suspense component?",
+      "options": [
+        "To handle errors",
+        "To manage state",
+        "To allow components to wait for something before they can render",
+        "To improve performance"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How can you avoid prop drilling in a React application?",
+      "options": [
+        "By using the Context API",
+        "By using higher-order components",
+        "By using Redux",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "points": 10
+    }
+  ]
+}
